@@ -183,11 +183,4 @@ function restart(){
     window.requestAnimationFrame(main)
 }
 
-
-
-
-
-
-
-
 restart()
