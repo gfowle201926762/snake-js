@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    height: 90vmin;
+    width: 90vmin;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(31, 1fr);
+    grid-template-rows: repeat(31, 1fr);
+}
+
+.snake{
+    background-color: green;
+    border: 1px solid black;
+}
+
+.food{
+    background-color: red;
+}
+
+.scoreboard{
+    height: 6vmin;
+    width: 90vmin;
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    font-size: 1em;
+    border-bottom: 5px solid black;
+}
